@@ -21,7 +21,7 @@ Use [this link](https://www.vagrantup.com/downloads.html) to download Vagrant if
 Performe the following steps with powershell :
 1. Download or clone this repository `git clone https://github.com/ZiyaadQasem/Kubernetes-nkube.git`
 2. Navigate to Kubernetes-nkube directory `cd Kubernetes-nkube`
-3. Run this command `vagrant up --provider virtualbox` for VM run this command vagrant up --provider vmware_desktop
+3. Run this command `vagrant up --provider virtualbox` for vmware run this command `vagrant up --provider vmware_desktop`
 > Note: this command will create 3-nodes cluster (1 maser and 2 workers). If you want more or less worker nodes you can just change the value of the variable WORKERS_NUMBER inside the file Vagrantfile.
 
 4. To work with the cluster, you have two ways:
